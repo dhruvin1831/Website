@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    title Dhruvin Patel
+
+    
+    block style
+    style
+      include ../static/styleNav.css
+      include ../static/styleFooter.css
+
+
+  body
+
+    nav#navbar
+        ul
+            li 
+                a(href='/')
+                    | Home
+            li 
+                a(href='/blank')
+                    | Blank
+            li 
+                a(href='/about')
+                    | About
+            li 
+                a(href='/contact')
+                    | Contact Us
+
+
+
+    block content
+
+
+    footer#footer
+        div
+            | Copyright 2020 &copy; | All Rights Reserved

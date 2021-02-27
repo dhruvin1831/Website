@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: black;
+}
+
+#navbar ul li{
+    margin: 0.5vw;
+}
+#navbar ul li a:hover{
+    background-color: rgb(238, 234, 234);
+    color: black;
+}
+
+#navbar ul li a{
+    display: block;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    padding: .3vw 1vw;
+    font-size: 1.6vw;
+    border: 2px solid black;
+    border-radius: 1.5vw;
+    font-family: 'Sora', sans-serif;
+}
+

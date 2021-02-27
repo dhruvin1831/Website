@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+#container{
+    position: relative;
+}
+
+#container::before{
+    content: '';
+    background: url(../static/bg.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: .8;
+    z-index: -1;
+
+}
+
+#formItems{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+
+#formItems input, #formItems textarea{
+    width: 28%;
+    margin: .3vw auto;
+    padding: .3vw;
+    font-size: 1.6vw;
+    
+    border: 1px solid #DDDDDD;
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+#formItems input:focus, #formItems textarea:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+#sub:hover{
+    color: tomato;
+}
